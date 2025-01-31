@@ -16,10 +16,10 @@ Este é um **validador de senhas** escrito em Python. Ele verifica se uma senha 
 
 ### 1- **Clone o repositório**
 ```bash
-git clone https://github.com/UfamSabrina/validador-de-senha.git
+git clone [Repositório no GitHub]https://github.com/UfamSabrina/validador-de-senha.git
 cd validador-de-senhas
 ```
-2- Execute o script
+### 2- Execute o script
 🖥️ Windows
 ```bash
 python validador.py
@@ -28,7 +28,7 @@ python validador.py
 ```bash
 python3 validador.py
 ```
-3- Digite uma senha e veja o resultado
+### 3- Digite uma senha e veja o resultado
 Se a senha for fraca, o programa mostrará os erros e pedirá uma nova senha até que seja forte.
 
 📌 Como importar para outro projeto sem rodar automaticamente?
