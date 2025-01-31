@@ -31,6 +31,7 @@ python3 validador.py
 ### 3- Digite uma senha e veja o resultado
 Se a senha for fraca, o programa mostrará os erros e pedirá uma nova senha até que seja forte.
 
+---
 :thinking: **Como importar para outro projeto sem rodar automaticamente?**
 Se você importar validador.py para outro projeto, ele não será executado sozinho. Para usá-lo, chame a função manualmente:
 
