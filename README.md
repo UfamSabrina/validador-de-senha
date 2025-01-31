@@ -16,7 +16,7 @@ Este é um **validador de senhas** escrito em Python. Ele verifica se uma senha 
 
 ### 1- **Clone o repositório**
 ```bash
-git clone [Repositório no GitHub]https://github.com/UfamSabrina/validador-de-senha.git
+git clone https://github.com/UfamSabrina/validador-de-senha.git
 cd validador-de-senhas
 ```
 ### 2- Execute o script
@@ -31,7 +31,7 @@ python3 validador.py
 ### 3- Digite uma senha e veja o resultado
 Se a senha for fraca, o programa mostrará os erros e pedirá uma nova senha até que seja forte.
 
-📌 Como importar para outro projeto sem rodar automaticamente?
+:thinking: **Como importar para outro projeto sem rodar automaticamente?**
 Se você importar validador.py para outro projeto, ele não será executado sozinho. Para usá-lo, chame a função manualmente:
 
 ```
@@ -45,7 +45,7 @@ if resultado is True:
 else:
     print("❌ Senha fraca:", resultado)
 ```
-Caso queira que o código rode automaticamente ao ser importado, remova esta parte do final do arquivo:
+**Caso queira que o código rode automaticamente ao ser importado, remova esta parte do final do arquivo:**
 
 ```
 if __name__ == "__main__":
